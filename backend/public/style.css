@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 2%;
+    position: fixed;
+    z-index: 999;
+}
+ul{
+    width: 40%;
+    text-align: end;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 3%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+section{
+    height: 100lvh;
+    width: 100%;
+    float: left;
+}
+
+#page-1{
+    background-color: #22668D;
+}
+#page-2{
+    padding-top:  4%; ;
+    background-color: #FC6736;
+}
+#page-3{
+    background-color: #0C2D57;
+}
